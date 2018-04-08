@@ -1,0 +1,32 @@
+{
+  "name": "is-non-empty-array",
+  "version": "0.0.1",
+  "description": "Returns true if a passed value is an Array with at least one element.",
+  "homepage": "https://github.com/filipdanic/is-non-empty-array",
+  "bugs": {
+    "url": "https://github.com/filipdanic/is-non-empty-array/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:filipdanic/is-non-empty-array.git"
+  },
+  "keywords": [
+    "array",
+    "utility",
+    "one-liners"
+  ],
+  "author": {
+    "name": "Filip Danić",
+    "email": "filipdanic7@gmail.com",
+    "url": "http://danicfilip.com"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
